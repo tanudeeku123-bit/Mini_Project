@@ -14,3 +14,4 @@ if %ERRORLEVEL% EQU 0 (
     echo [NOTICE] If prompted by Git Credential Manager, complete the sign-in in your browser.
 )
 pause
+
