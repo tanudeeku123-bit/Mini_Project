@@ -121,3 +121,4 @@ On the very first run, `DatabaseManager` automatically creates a local SQLite da
 5. Default administrator credentials (`admin` / `admin123`).
 
 No external database installation or manual SQL execution is required.
+
