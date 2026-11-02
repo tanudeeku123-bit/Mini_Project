@@ -1,0 +1,48 @@
+# ===================================================================
+# Git Ignore Rules for Smart Public Transportation System
+# ===================================================================
+
+# Compiled Java bytecode
+*.class
+
+# SQLite Database files (Live databases, runtime data, journal files)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.db-journal
+
+# Logs and diagnostic output
+*.log
+transcript*.jsonl
+
+# IDE and Project Tooling
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+bin/
+out/
+build/
+target/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Temporary & backup files
+*.tmp
+*.bak
+*~
+*.swp
